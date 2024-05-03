@@ -1,5 +1,5 @@
 #!/bin/python
-#Made by Leo Platti April 2024 - Grade Calculator for practical programming
+#Made by Leo Platti April 2024 for practical programming
 import math
 #Description
 quizzes_grades = []
@@ -88,4 +88,6 @@ def algorithim(assignment_grades, quiz_grades, project_grades, name):
         print("Assignment Averages: ", assignment_ave)
         print("Total Average: ", final_grade)
         print("Letter Grade: ", letter_grade)
+    display(name, quiz_ave, project_ave, assignment_ave, final_grade, letter_grade)
 algorithim(assignments_grades, quizzes_grades, project_grades, name)
+
